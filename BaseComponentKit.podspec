@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
 Provide useful base stuffs for the new project, the root base stuff always start with GBaseXXX
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/BaseComponentKit"
+  spec.homepage     = "https://github.com/DanteEvil/BaseComponentKit.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Provide useful base stuffs for the new project, the root base stuff always start
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/BaseComponentKit.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/DanteEvil/BaseComponentKit.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Provide useful base stuffs for the new project, the root base stuff always start
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "*"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
