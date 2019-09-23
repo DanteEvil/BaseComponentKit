@@ -91,7 +91,8 @@ Provide useful base stuffs for the new project, the root base stuff always start
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "*"
+  spec.source_files  = "BaseComponentKit/*.swift"
+  spec.source_files  = "BaseComponentKit/**/*.swift"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
