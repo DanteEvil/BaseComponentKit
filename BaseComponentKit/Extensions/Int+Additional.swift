@@ -11,4 +11,8 @@ public extension Int {
     func boolValue() -> Bool {
         return self == 1
     }
+    
+    func stringValue() -> String {
+        return String(format: "%d", self)
+    }
 }

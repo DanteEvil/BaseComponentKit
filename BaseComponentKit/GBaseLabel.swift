@@ -29,7 +29,7 @@ import UIKit
     }
     
     #if TARGET_INTERFACE_BUILDER
-    override func prepareForInterfaceBuilder() {
+    override open func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
         layout()
     }
