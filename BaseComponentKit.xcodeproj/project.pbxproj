@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58008A3B233A36C400B3D681 /* NSRegularExpression+Additional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58008A37233A36C400B3D681 /* NSRegularExpression+Additional.swift */; };
+		58008A3C233A36C400B3D681 /* Bool+Additional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58008A38233A36C400B3D681 /* Bool+Additional.swift */; };
+		58008A3D233A36C400B3D681 /* String+Additional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58008A39233A36C400B3D681 /* String+Additional.swift */; };
+		58008A3E233A36C400B3D681 /* Int+Additional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58008A3A233A36C400B3D681 /* Int+Additional.swift */; };
 		58DC5B73233491F0006D55CF /* BaseComponentKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 58DC5B71233491F0006D55CF /* BaseComponentKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58DC5B7A2334AFEE006D55CF /* GBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC5B792334AFEE006D55CF /* GBaseView.swift */; };
 		58DC5B7D2334B06B006D55CF /* UIView+Additional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC5B7C2334B06B006D55CF /* UIView+Additional.swift */; };
@@ -25,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58008A37233A36C400B3D681 /* NSRegularExpression+Additional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSRegularExpression+Additional.swift"; sourceTree = "<group>"; };
+		58008A38233A36C400B3D681 /* Bool+Additional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bool+Additional.swift"; sourceTree = "<group>"; };
+		58008A39233A36C400B3D681 /* String+Additional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Additional.swift"; sourceTree = "<group>"; };
+		58008A3A233A36C400B3D681 /* Int+Additional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Additional.swift"; sourceTree = "<group>"; };
 		58DC5B6E233491F0006D55CF /* BaseComponentKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BaseComponentKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58DC5B71233491F0006D55CF /* BaseComponentKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseComponentKit.h; sourceTree = "<group>"; };
 		58DC5B72233491F0006D55CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,6 +102,10 @@
 		58DC5B7B2334B04F006D55CF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				58008A38233A36C400B3D681 /* Bool+Additional.swift */,
+				58008A3A233A36C400B3D681 /* Int+Additional.swift */,
+				58008A37233A36C400B3D681 /* NSRegularExpression+Additional.swift */,
+				58008A39233A36C400B3D681 /* String+Additional.swift */,
 				58DC5B7C2334B06B006D55CF /* UIView+Additional.swift */,
 				58DC5BE32334CE8C006D55CF /* UITableViewCell+Additional.swift */,
 				58DC5BE52334D367006D55CF /* UITableView+Additional.swift */,
@@ -181,17 +193,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58008A3C233A36C400B3D681 /* Bool+Additional.swift in Sources */,
 				58DC5BE22334CE67006D55CF /* GBaseTableViewCell.swift in Sources */,
 				58DC5BEA2334D6A6006D55CF /* GBaseObject.swift in Sources */,
 				58DC5BEC2334D6DD006D55CF /* GBaseViewController.swift in Sources */,
+				58008A3E233A36C400B3D681 /* Int+Additional.swift in Sources */,
 				58DC5BDA2334C608006D55CF /* GBaseTextView.swift in Sources */,
 				58DC5BEE2334D7BE006D55CF /* UIColor+Additional.swift in Sources */,
 				58DC5BE62334D367006D55CF /* UITableView+Additional.swift in Sources */,
 				58DC5BE42334CE8C006D55CF /* UITableViewCell+Additional.swift in Sources */,
 				58DC5B7A2334AFEE006D55CF /* GBaseView.swift in Sources */,
+				58008A3D233A36C400B3D681 /* String+Additional.swift in Sources */,
 				58DC5BE02334CADA006D55CF /* GBaseButton.swift in Sources */,
 				58DC5BD82334BF65006D55CF /* GBaseLabel.swift in Sources */,
 				58DC5BDE2334C882006D55CF /* GBUIImageView.swift in Sources */,
+				58008A3B233A36C400B3D681 /* NSRegularExpression+Additional.swift in Sources */,
 				58DC5BE82334D5BE006D55CF /* GBaseTableView.swift in Sources */,
 				58DC5B7D2334B06B006D55CF /* UIView+Additional.swift in Sources */,
 				58DC5BDC2334C7C3006D55CF /* GBaseTextField.swift in Sources */,

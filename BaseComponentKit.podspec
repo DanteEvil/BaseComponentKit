@@ -18,6 +18,7 @@ Pod::Spec.new do |spec|
   spec.name         = "BaseComponentKit"
   spec.version      = "0.0.1"
   spec.summary      = "Provide useful base stuffs for the new project"
+  spec.swift_version = "4.2"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -65,7 +66,7 @@ Provide useful base stuffs for the new project, the root base stuff always start
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  spec.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
