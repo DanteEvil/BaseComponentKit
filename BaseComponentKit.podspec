@@ -16,9 +16,9 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BaseComponentKit"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Provide useful base stuffs for the new project"
-  spec.swift_version = "4.2"
+  spec.swift_version = "5.0"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -81,7 +81,7 @@ Provide useful base stuffs for the new project, the root base stuff always start
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/DanteEvil/BaseComponentKit.git", :tag => "0.0.1" }
+  spec.source       = { :git => "https://github.com/DanteEvil/BaseComponentKit.git", :tag => "0.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
