@@ -8,10 +8,10 @@
 
 import Foundation
 
-protocol ReuseAbleCell {}
+public protocol ReuseAbleCell {}
 extension GBaseTableViewCell: ReuseAbleCell {}
 
-extension ReuseAbleCell where Self: GBaseTableViewCell {
+public extension ReuseAbleCell where Self: GBaseTableViewCell {
     static var reuseId: String {
         return String(describing: self)
     }

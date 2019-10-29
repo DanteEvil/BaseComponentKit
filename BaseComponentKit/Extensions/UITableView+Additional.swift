@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension GBaseTableView {
+public extension GBaseTableView {
     func registerCellClass<Cell: GBaseTableViewCell>(type: Cell.Type) {
         self.register(type, forCellReuseIdentifier: type.reuseId)
     }
