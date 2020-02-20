@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BaseComponentKit"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "Provide useful base stuffs for the new project"
   spec.swift_version = "5.0"
 
@@ -81,7 +81,7 @@ Provide useful base stuffs for the new project, the root base stuff always start
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/DanteEvil/BaseComponentKit.git", :tag => "0.0.5" }
+  spec.source       = { :git => "https://github.com/DanteEvil/BaseComponentKit.git", :tag => "0.0.6" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

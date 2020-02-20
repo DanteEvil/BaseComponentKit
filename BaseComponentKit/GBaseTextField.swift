@@ -43,6 +43,6 @@ import UIKit
         layout()
     }
     
-    func layout() {
+    open func layout() {
     }
 }

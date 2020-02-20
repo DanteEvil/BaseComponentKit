@@ -27,6 +27,8 @@
 		58DC5BEA2334D6A6006D55CF /* GBaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC5BE92334D6A6006D55CF /* GBaseObject.swift */; };
 		58DC5BEC2334D6DD006D55CF /* GBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC5BEB2334D6DD006D55CF /* GBaseViewController.swift */; };
 		58DC5BEE2334D7BE006D55CF /* UIColor+Additional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC5BED2334D7BE006D55CF /* UIColor+Additional.swift */; };
+		58DFDC6123FE7CDA00D7E5FD /* UICollectionViewCell+Additional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFDC6023FE7CDA00D7E5FD /* UICollectionViewCell+Additional.swift */; };
+		58DFDC6323FE7D1100D7E5FD /* GBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFDC6223FE7D1100D7E5FD /* GBaseCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		58DC5BE92334D6A6006D55CF /* GBaseObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBaseObject.swift; sourceTree = "<group>"; };
 		58DC5BEB2334D6DD006D55CF /* GBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBaseViewController.swift; sourceTree = "<group>"; };
 		58DC5BED2334D7BE006D55CF /* UIColor+Additional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Additional.swift"; sourceTree = "<group>"; };
+		58DFDC6023FE7CDA00D7E5FD /* UICollectionViewCell+Additional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Additional.swift"; sourceTree = "<group>"; };
+		58DFDC6223FE7D1100D7E5FD /* GBaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBaseCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 				58DC5BE12334CE67006D55CF /* GBaseTableViewCell.swift */,
 				58DC5BE92334D6A6006D55CF /* GBaseObject.swift */,
 				58DC5BEB2334D6DD006D55CF /* GBaseViewController.swift */,
+				58DFDC6223FE7D1100D7E5FD /* GBaseCollectionViewCell.swift */,
 			);
 			path = BaseComponentKit;
 			sourceTree = "<group>";
@@ -113,6 +118,7 @@
 				58DC5BE32334CE8C006D55CF /* UITableViewCell+Additional.swift */,
 				58DC5BE52334D367006D55CF /* UITableView+Additional.swift */,
 				58DC5BED2334D7BE006D55CF /* UIColor+Additional.swift */,
+				58DFDC6023FE7CDA00D7E5FD /* UICollectionViewCell+Additional.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -206,6 +212,8 @@
 				58AB1D3823E95F12005E18F9 /* Collection+Additional.swift in Sources */,
 				58DC5BDA2334C608006D55CF /* GBaseTextView.swift in Sources */,
 				58DC5BEE2334D7BE006D55CF /* UIColor+Additional.swift in Sources */,
+				58DFDC6123FE7CDA00D7E5FD /* UICollectionViewCell+Additional.swift in Sources */,
+				58DFDC6323FE7D1100D7E5FD /* GBaseCollectionViewCell.swift in Sources */,
 				58DC5BE62334D367006D55CF /* UITableView+Additional.swift in Sources */,
 				58DC5BE42334CE8C006D55CF /* UITableViewCell+Additional.swift in Sources */,
 				58DC5B7A2334AFEE006D55CF /* GBaseView.swift in Sources */,
