@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class GBaseCollectionViewCell: UICollectionViewCell {
+open class GBaseCollectionViewCell: UICollectionViewCell {
     open func configCell(object: Any?) {
         
     }
